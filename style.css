@@ -88,7 +88,10 @@ label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+input {
+    width: 318px;
+}
+#new-task{
     width: 318px;
 }
 
@@ -128,11 +131,15 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul label {
     text-decoration: line-through
     color: #888;
 }
 
+#completed-tasks{
+    text-decoration: line-through;
+    color: #888;
+}
 /* Edit Task */
 ul li input[type=text] {
     display:none
