@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-.instruction { text-align: center;
+    .instruction { 
+        text-align: center;
 }
 }
 .centered-main-page-element {
