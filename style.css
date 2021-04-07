@@ -117,9 +117,6 @@ li > * {
   vertical-align: middle;
 }
 
-/* li > input[type="checkbox"] {
-  margin: 0 10px;
-} */
 li > label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -139,15 +136,21 @@ button.delete img:hover {
 }
 
 /* Completed */
+
 ul label {
   text-decoration: line-through;
   color: #888;
 }
 
-#completed-tasks {
+ul#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
+
+#completed-tasks > li > input[type="text"] {
+  text-decoration: line-through;
+}
+
 /* Edit Task */
 ul li input[type="text"] {
   display: none;
