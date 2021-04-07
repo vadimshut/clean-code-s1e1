@@ -24,12 +24,14 @@ body {
   }
 }
 .main {
+  outline: 2px solid red;
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 .main__checkbox {
-  width: 20px;
+  /* width: 20px; */
+  margin: 0 10px;
 }
 .task {
   width: 56%;
@@ -95,9 +97,9 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input {
+/* input {
   width: 318px;
-}
+} */
 #new-task {
   width: 318px;
 }
@@ -116,9 +118,9 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+/* li > input[type="checkbox"] {
   margin: 0 10px;
-}
+} */
 li > label {
   padding-left: 10px;
   box-sizing: border-box;
